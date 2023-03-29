@@ -1,3 +1,24 @@
-.task-done {
-  text-decoration: line-through;
+body{
+  text-align: center;
+  background-color: rgb(88, 87, 87);
+  color: rgb(201, 201, 201);
+}
+
+h2{
+ font-size: 19pt;
+}
+
+h3{
+  font-size: 19pt;
+}
+
+.txtInicial{
+  font-size: 18pt;
+}
+
+.container-jogo{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
