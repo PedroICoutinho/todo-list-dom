@@ -26,14 +26,14 @@ function atualizarJogo(){
 }
 
 function mostrarLetrasCorretas(){
-  const certas = document.getElementsByClassName("palavra-secreta-container")
+  const certas = document.getElementById("palavra-secreta-container")
   letrasCorretas.forEach(letras =>{
     certas.innerHTML += ` ${letras} `
   })
 }
 
 function mostrarLetrasErradas(){
-  const erradas = document.getElementsByClassName("letras-erradas-container")
+  const erradas = document.getElementById("letras-erradas-container")
   letrasErradas.forEach(letra => {
     erradas.innerHTML += ` ${letra} `
   })
